@@ -1,0 +1,303 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FlipPlay, platform hiburan digital untuk anime, drama, manga, dan light novel.">
+  <title>FlipPlay - Entertainment Platform</title>
+  <link href="./output.css" rel="stylesheet">
+</head>
+
+<body class="bg-dark text-white antialiased">
+
+  <header class="sticky top-0 z-50 border-b border-white/10 bg-dark/90 backdrop-blur-lg">
+    <nav class="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-4 px-5 py-4 lg:px-8">
+
+      <a href="#home" class="text-2xl font-black tracking-tight text-brand">
+        FlipPlay
+      </a>
+
+      <ul class="flex flex-wrap items-center gap-4 text-sm text-gray-300 sm:gap-6">
+        <li><a href="#home" class="transition hover:text-brand scroll-smooth">Home</a></li>
+        <li><a href="#explore" class="transition hover:text-brand scroll-smooth">Explore</a></li>
+        <li><a href="#about" class="transition hover:text-brand scroll-smooth">About</a></li>
+        <li><a href="#contact" class="transition hover:text-brand scroll-smooth">Contact</a></li>
+      </ul>
+
+      <a href="#explore" class="rounded-full bg-brand px-5 py-2.5 text-sm font-semibold transition hover:opacity-80">
+        Explore Now
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="relative isolate overflow-hidden">
+      <div class="absolute inset-0 -z-10 bg-gradient-to-br from-purple-950 via-dark to-dark"></div>
+      <div class="absolute -right-32 top-10 -z-10 h-80 w-80 rounded-full bg-brand/20 blur-3xl"></div>
+
+      <div class="mx-auto grid max-w-7xl items-center gap-12 px-5 py-20 md:grid-cols-2 md:py-28 lg:px-8">
+
+        <div>
+          <span class="inline-flex rounded-full border border-brand/30 bg-brand/10 px-4 py-2 text-xs font-semibold tracking-widest text-purple-300">
+            YOUR ULTIMATE ENTERTAINMENT
+          </span>
+
+          <h1 class="mt-6 text-5xl font-black leading-tight tracking-tight sm:text-6xl lg:text-7xl">
+            One Place,
+            <span class="text-brand">Endless</span>
+            Stories.
+          </h1>
+
+          <p class="mt-6 max-w-lg leading-relaxed text-gray-400">
+            Dunia hiburan tanpa batas. Nikmati anime, drama,
+            manga, dan light novel favoritmu dalam satu platform.
+          </p>
+
+          <div class="mt-9 flex flex-wrap gap-4">
+            <a href="#explore"
+              class="rounded-full bg-brand px-7 py-3.5 font-semibold transition hover:-translate-y-1 hover:opacity-80">
+              Explore Collection
+            </a>
+
+            <a href="#about"
+              class="rounded-full border border-white/20 px-7 py-3.5 font-semibold transition hover:bg-white/10">
+              Learn More
+            </a>
+          </div>
+
+          <div class="mt-12 flex flex-wrap gap-8">
+            <div>
+              <p class="text-2xl font-bold">4+</p>
+              <p class="text-sm text-gray-400">Categories</p>
+            </div>
+            <div>
+              <p class="text-2xl font-bold">∞</p>
+              <p class="text-sm text-gray-400">Stories</p>
+            </div>
+            <div>
+              <p class="text-2xl font-bold">1</p>
+              <p class="text-sm text-gray-400">Platform</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="relative mx-auto w-full max-w-lg">
+          <div class="absolute inset-0 rounded-3xl bg-brand/20 blur-3xl"></div>
+          <img
+            src="https://images.unsplash.com/photo-1665042099439-39d93c1117e6?q=80&w=1156&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Ilustrasi anime"
+            class="relative aspect-[4/3] w-full rounded-3xl border border-white/10 object-cover shadow-2xl"
+          >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="explore" class="mx-auto max-w-7xl px-5 py-20 lg:px-8">
+
+      <div class="mb-10 flex flex-wrap items-end justify-between gap-4">
+        <div>
+          <p class="text-sm font-bold uppercase tracking-widest text-brand">Explore</p>
+          <h2 class="mt-3 text-3xl font-bold sm:text-4xl">
+            Explore Your Universe
+          </h2>
+          <p class="mt-3 text-gray-400">
+            Temukan berbagai cerita dalam satu tempat.
+          </p>
+        </div>
+
+        <a href="#contact" class="text-sm font-semibold text-brand hover:opacity-80">
+          Discover More
+        </a>
+      </div>
+
+      <div class="mb-6">
+        <h2 class="text-lg font-bold text-white mb-3">
+          Choose Media
+        </h2>
+
+        <div class="flex gap-3">
+          <button
+            class="media-btn bg-brand px-4 py-2 rounded-lg text-white"
+            data-type="anime"
+          >
+            Anime
+          </button>
+
+          <button
+            class="media-btn border border-white/10 px-4 py-2 rounded-lg text-white"
+            data-type="manga"
+          >
+            Manga
+          </button>
+
+          <button
+            class="media-btn border border-white/10 px-4 py-2 rounded-lg text-white"
+            data-type="drama"
+          >
+            Drama
+          </button>
+        </div>
+      </div>
+
+      <div class="mb-8 space-y-4">
+        <div class="relative">
+          <input
+            id="searchInput"
+            type="text"
+            placeholder="Search..."
+            class="w-full max-w-md rounded-xl border border-white/10 bg-surface px-4 py-3 text-white outline-none focus:border-brand"
+          >
+        </div>
+
+        <div class="flex flex-wrap gap-3">
+          <button
+            class="aura-btn rounded-full bg-brand px-5 py-2 text-sm font-semibold"
+            data-aura="all"
+          >
+            Semua
+          </button>
+
+          <button
+            class="aura-btn rounded-full border border-white/10 px-5 py-2 text-sm font-semibold hover:bg-white/10"
+            data-aura="high-energy"
+          >
+            Rating tinggi
+          </button>
+
+          <button
+            class="aura-btn rounded-full border border-white/10 px-5 py-2 text-sm font-semibold hover:bg-white/10"
+            data-aura="melancholy"
+          >
+            Rating lebih rendah
+          </button>
+
+          <button
+            class="aura-btn rounded-full border border-white/10 px-5 py-2 text-sm font-semibold hover:bg-white/10"
+            data-aura="binge"
+          >
+            Banyak episode
+          </button>
+        </div>
+
+      </div>
+
+      <p id="loading" class="mb-6 text-center text-gray-400">
+        Loading data...
+      </p>
+
+      <p id="errorMessage" class="mb-6 hidden text-center text-red-400">
+        Gagal mengambil data.
+      </p>
+
+      <p id="noResult" class="mb-6 hidden text-center text-gray-400">
+        No results found.
+      </p>
+
+      <!-- CARDS -->
+      <div id="content-card" class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="border-y border-white/10 bg-surface/60 px-5 py-20">
+      <div class="mx-auto max-w-4xl text-center">
+        <p class="text-sm font-bold uppercase tracking-widest text-brand">
+          About FlipPlay
+        </p>
+
+        <h2 class="mt-3 text-3xl font-bold sm:text-4xl">
+          Everything You Love, In One Place.
+        </h2>
+
+        <p class="mx-auto mt-5 max-w-2xl leading-relaxed text-gray-400">
+          FlipPlay hadir sebagai konsep platform hiburan digital
+          yang menyatukan streaming dan membaca dalam satu pengalaman.
+          Temukan anime, drama, manga, dan light novel dengan lebih mudah.
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="mx-auto max-w-3xl px-5 py-20">
+
+      <!-- CONTACT HEADING -->
+      <div class="mb-10 text-center">
+        <p class="text-sm font-bold uppercase tracking-widest text-brand">
+          Get In Touch
+        </p>
+        <h2 class="mt-3 text-3xl font-bold sm:text-4xl">Let's Talk!</h2>
+        <p class="mt-3 text-gray-400">
+          Punya pertanyaan atau saran? Kirim pesan kepada kami.
+        </p>
+      </div>
+
+      <!-- CONTACT FORM -->
+      <form action="#" method="post" class="space-y-5 rounded-2xl border border-white/10 bg-surface p-6 sm:p-8">
+
+        <div>
+          <label for="name" class="mb-2 block text-sm font-medium">Nama</label>
+          <input
+            id="name"
+            name="name"
+            type="text"
+            placeholder="Masukkan nama kamu"
+            required
+            class="w-full rounded-xl border border-white/10 bg-dark px-4 py-3 outline-none transition placeholder:text-gray-600 focus:border-brand"
+          >
+        </div>
+
+        <div>
+          <label for="email" class="mb-2 block text-sm font-medium">Email</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="nama@email.com"
+            required
+            class="w-full rounded-xl border border-white/10 bg-dark px-4 py-3 outline-none transition placeholder:text-gray-600 focus:border-brand"
+          >
+        </div>
+
+        <div>
+          <label for="message" class="mb-2 block text-sm font-medium">Pesan</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="4"
+            placeholder="Tuliskan pesan kamu..."
+            required
+            class="w-full resize-y rounded-xl border border-white/10 bg-dark px-4 py-3 outline-none transition placeholder:text-gray-600 focus:border-brand"
+          ></textarea>
+        </div>
+
+        <button type="submit" class="w-full rounded-xl bg-brand px-6 py-3.5 font-semibold transition hover:opacity-80">
+          Send Message
+        </button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="border-t border-white/10 bg-surface px-5 py-8">
+    <div class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 sm:flex-row">
+
+      <a href="#home" class="text-xl font-black text-brand">
+        FlipPlay
+      </a>
+
+      <p class="text-center text-sm text-gray-500">
+        © 2026 FlipPlay. All rights reserved.
+      </p>
+
+      <a href="#home" class="text-sm text-gray-400 transition hover:text-brand">
+        Back to top
+      </a>
+
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>

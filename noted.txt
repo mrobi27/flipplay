@@ -1,0 +1,62 @@
+npx @tailwindcss/cli -i ./src/main.css -o ./src/output.css --watch
+
+
+        <article class="group overflow-hidden rounded-2xl border border-white/10 bg-surface transition hover:-translate-y-2 hover:border-brand/50">
+          <img
+            src="https://images.unsplash.com/photo-1578632767115-351597cf2477?w=600"
+            alt="Ilustrasi anime"
+            class="h-48 w-full object-cover transition duration-500 group-hover:scale-105"
+          >
+          <div class="p-5">
+            <span class="text-xs font-semibold uppercase tracking-widest text-brand">Watch</span>
+            <h3 class="mt-2 text-xl font-bold">Anime</h3>
+            <p class="mt-2 text-sm leading-relaxed text-gray-400">
+              Jelajahi berbagai kisah anime dengan beragam genre dan petualangan.
+            </p>
+          </div>
+        </article>
+
+        <article class="group overflow-hidden rounded-2xl border border-white/10 bg-surface transition hover:-translate-y-2 hover:border-brand/50">
+          <img
+            src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=600"
+            alt="Suasana menonton film"
+            class="h-48 w-full object-cover transition duration-500 group-hover:scale-105"
+          >
+          <div class="p-5">
+            <span class="text-xs font-semibold uppercase tracking-widest text-brand">Stream</span>
+            <h3 class="mt-2 text-xl font-bold">Drama</h3>
+            <p class="mt-2 text-sm leading-relaxed text-gray-400">
+              Nikmati cerita drama dengan beragam genre dan pengalaman.
+            </p>
+          </div>
+        </article>
+
+        <article class="group overflow-hidden rounded-2xl border border-white/10 bg-surface transition hover:-translate-y-2 hover:border-brand/50">
+          <img
+            src="https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?w=600"
+            alt="Ilustrasi komik"
+            class="h-48 w-full object-cover transition duration-500 group-hover:scale-105"
+          >
+          <div class="p-5">
+            <span class="text-xs font-semibold uppercase tracking-widest text-brand">Read</span>
+            <h3 class="mt-2 text-xl font-bold">Manga</h3>
+            <p class="mt-2 text-sm leading-relaxed text-gray-400">
+              Baca manga dari berbagai genre dan temukan cerita favoritmu.
+            </p>
+          </div>
+        </article>
+
+        <article class="group overflow-hidden rounded-2xl border border-white/10 bg-surface transition hover:-translate-y-2 hover:border-brand/50">
+          <img
+            src="https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600"
+            alt="Koleksi buku"
+            class="h-48 w-full object-cover transition duration-500 group-hover:scale-105"
+          >
+          <div class="p-5">
+            <span class="text-xs font-semibold uppercase tracking-widest text-brand">Discover</span>
+            <h3 class="mt-2 text-xl font-bold">Light Novel</h3>
+            <p class="mt-2 text-sm leading-relaxed text-gray-400">
+              Masuki dunia imajinasi melalui cerita yang menarik dan penuh detail.
+            </p>
+          </div>
+        </article>
