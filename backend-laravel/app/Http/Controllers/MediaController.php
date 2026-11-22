@@ -16,7 +16,13 @@ class MediaController extends Controller
      */
     public function index()
     {
-        $media = Media::with('users')->get();
+        $query = Media::query();
+
+        if (request()->filled('search')) {
+            $query->where('title', 'like', '%' . request('search') . '%');
+        }
+
+        $media = $query->get();
 
         return response()->json([
             'message' => 'Daftar media berhasil ditampilkan.',
